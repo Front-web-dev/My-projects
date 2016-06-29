@@ -1,0 +1,641 @@
+/*** START: Extra small devices (<768px) *****/
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+	/*Start: fixed-col-xs-col-md-elements*/
+	.fixed-col-xs-col-md-elements{
+		background-color: #555;
+		opacity: 0.8;
+		height: 40px;
+		width: 100%;
+		position: fixed;
+		z-index: 190;
+	}
+
+	.main-logo{
+		width: 158px;
+		position: fixed;
+		z-index: 500;
+		margin-top: 2px;
+	}
+
+	.navbar-default .navbar-toggle{
+		position: fixed;
+		margin-top: 13px;
+		border: none;
+		z-index: 701;
+		margin-left: 270px;
+	}
+
+	.navbar-nav {
+		width: 100%;
+		position: fixed;
+		margin-top: 0px;
+		z-index: 170;
+	}
+	/*End: fixed-col-xs-col-md-elements*/
+
+	/*Bootstrap navigation*/
+	.navbar-default .navbar-nav>li>a{
+		font-size: 1.4rem;
+		margin-top: 0px;
+	}
+
+	.navbar-default .navbar-nav>li{
+		margin-top: 0px;
+		display: block;
+		background-color: #555;
+		border-bottom: 1px solid #fff;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.navbar-default .navbar-nav>li:first-child{
+		border-radius: 5px 5px 0 0;
+	}
+
+	.navbar-default .navbar-nav>li:last-child{
+		border-radius: 0 0 5px 5px;
+		border-bottom: none;
+		background-color: #3498db;
+		margin-left: 0px;
+	}
+
+	.navbar-default .navbar-nav>li:last-child a:hover{
+		border-radius: 0px 0px 5px 5px;
+	}
+
+	.navbar-default .navbar-toggle{
+		border: none;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar{
+		background-color: #fff;
+	}
+
+	.navbar-toggle{
+		padding: 0px 10px;
+		margin-top: 45px;
+	}
+
+	.navbar-default .navbar-toggle:hover{
+		background-color: transparent;
+	}
+	
+	/*Bootstrap framework navigation*/
+	.navbar-default .navbar-nav>li:first-child{
+		margin-top: 40px;
+	}
+
+	.navbar-default .navbar-collapse, 
+	.navbar-default .navbar-form{
+		border-color: transparent;
+	}
+
+	.navbar-default .navbar-nav>li{
+		margin-top: 0px;
+	}
+	/*End Bootstrap framework navigation*/
+
+	.rocket{
+		background-position: center;
+		margin-top: 50px;
+		z-index: 50;
+	}
+
+	.header-descr{
+		font-size: 20px;
+		text-align: center;
+		margin-top: 40px;
+		z-index: 50;
+	}
+
+	.bottom-head-descr{
+		font-family: "OpenSans", sans-serif;
+		font-size: 1.4rem;
+		color: #fff;
+		margin-top: 20px;
+		text-align: center;
+		z-index: 50;
+	}
+
+	.learn-more, .contact-us{
+		padding: 18px;
+		font-size: 1rem;
+		margin-top: 30px;
+		z-index: 50;
+	}
+
+	.or-middle{
+		width: 28px;
+		height: 28px;
+		margin-top: 40px;
+		margin-left: -121px;
+		z-index: 50;
+	}
+
+	.or-middle span{
+		font-size: 1.1rem;
+		margin-left: -8px;
+		vertical-align: -3px;
+	}
+	/*End header*/
+
+	.web-design img, 
+	.logo-design img, 
+	.print-design img{
+		padding: 15px;
+	}
+
+	.web-design h2, 
+	.logo-design h2, 
+	.print-design h2{
+		font-size: 1.8rem;
+	}
+
+	.web-design p, 
+	.logo-design p, 
+	.print-design p{
+		padding: 0px;
+	}
+
+	/*Start: How we work section*/
+	.how-we-work h2,
+	.our-work h2,
+	.testimonaials h2,
+	.meet-the-team h2{
+		font-family: "Montserrat", sans-serif;
+		font-size: 3rem;
+		color: #464646;
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	.our-work{
+		margin-top: 40px;
+		padding-bottom: 50px;
+	}
+
+	.meet-the-team{
+		margin-top: 60px;
+	}
+
+	.how-we-work p,
+	.our-work p,
+	.testimonaials p,
+	.meet-the-team p{
+		font-family: "OpenSans", sans-serif;
+		font-size: 1.4rem;
+		color: #a1a1a1;
+		text-align: center;
+	}
+
+	.vertical-line{
+		width: 100%;
+		height: 240px;
+	}
+	/*Start tooltips*/
+
+	.tooltips{
+		width: 74%;
+		padding: 1rem;
+	}
+
+	.tooltips::after{
+		top: -36px;
+	}
+
+	.vertical-line{
+		margin-left: -135px;
+	}
+
+	.vertical-line h2{
+		margin-top: 5px;
+	}
+
+	.vertical-line p{
+		margin: 0;
+	}
+
+	.tooltips:nth-child(odd){
+		float: right;
+		margin-left: 100%;
+		margin-right: -35%;
+	}
+
+	.tooltips:nth-child(even){
+		float: left;
+		margin-right: 100%;
+		margin-left: 61%;
+		border-bottom: 4px solid #ff1e4f;
+	}
+
+	.tooltips:nth-child(even)::after{
+		transform: rotateY(360deg);
+		position: relative;
+		left: -21px;
+		top: -52px;
+	}
+
+	/*End tooltips*/
+
+	/*End: "How we work" section*/
+
+	.our-work-btn{
+		width: 165px;
+		margin-top: -22px;
+	}
+
+	/*Start "Our work" sectiom*/
+	.our-work{
+		margin-bottom: 0px;
+	}
+
+	.syllabus, .contest, .travel, .shop{
+		margin-left: 0px;
+	}
+
+	.syllabus-btn, .contest-btn,
+	.travel-btn, .shop-btn{
+		margin: -60px 0 0 57px;
+	}
+
+	.slick-prev{
+		left: 35%;
+	}
+
+	.slick-next{
+		left: 60%;
+	}
+
+	.item{
+		width: 100%;
+		margin: 20px 0px;
+		padding: 0px 20px;
+	}
+	/*End "Our work" sectiom*/
+
+	/*Start Testimonaials section*/
+	.neil-armstrong{
+		text-align: center;
+	}
+
+	.neil-photo{
+		margin-top: 20px;
+	}
+
+	.armstrong-tooltip{
+		width: 280px;
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+
+	.armstrong-tooltip:after, 
+	.armstrong-tooltip:before{
+		top: -8%;
+		left: 45%;
+		border: solid transparent;
+		content: " ";
+		position: absolute;
+	}
+
+	.armstrong-tooltip:after{
+		border-bottom-color: #fff;
+		border-width: 11px;
+		margin-top: -9px;
+	}
+
+	.armstrong-tooltip:before{
+		border-bottom-color: #e1e5eb;
+		border-width: 13px;
+		margin-left: -2px;
+	}
+
+	.armstrong-tooltip h4{
+		font-size: 1.2rem;
+		margin-top: 14px;
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	.armstrong-tooltip strong{
+		font-size: 1rem;
+	}
+
+	.armstrong-tooltip p{
+		font-size: 1.2rem;
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	/*End Testimonaials section*/
+
+	.meet-the-team{
+		margin-top: 325px;
+	}
+
+	.employees{
+		margin-top: 35px;
+	}
+
+	.afnizar,
+	.henry-phillips,
+	.gerald-elliott{
+		margin-bottom: 35px;
+	}
+
+	.location{
+		margin-top: 35px;
+	}
+
+	/*Start "Location" section*/
+	.location{
+		height: 270px;
+		margin-top: 20px;
+		background-position: -122px 0;
+	}
+
+	.location-tooltip{
+		padding: 0px 0px;
+		height: 100px;
+		width: 210px;
+		margin-top: 50px;
+		border-bottom: 30px solid #3498db;
+	}
+
+	.location-tooltip h4{
+		font-size: 1.2rem;
+		margin: 0px;
+		padding: 10px 0px;
+		text-align: center;
+	}
+
+	.location-tooltip span{
+		display: block;
+		font-size: 1.1rem;
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	.location-tooltip p{
+		margin-top: 12px;
+	}
+
+	.location-tooltip a{
+		font-size: 1rem;
+	}
+
+	.location-tooltip:before{
+		margin-left: 210px;
+		border-top: 14px solid transparent;
+		border-left: 25px solid #fff;
+		border-bottom: 14px solid transparent;
+		margin-top: 27px;
+	}
+	/*End "Location" section*/
+
+	/*Strart: Our partners section*/
+	.nasa, .jaxa, .boeing{
+		margin-bottom: 20px;
+	}
+	/*End: Our partners section*/
+
+	/*Footer*/
+
+	.wrapper-footer{
+		background-color: #000;
+		padding: 0px;
+	}
+
+	.social-networking a{
+		font-size: 1.2rem;
+		line-height: 40px;
+	}
+
+	.get-served input{
+		width: 218px;
+	}
+
+	.get-served span{
+		font-size: 1.2rem;
+	}
+
+	.get-served small{
+		font-size: 1.2rem;
+		line-height: 1em;
+		padding-bottom: 25px;
+	}
+	/*End footer*/
+
+}
+/**** END: Extra small devices (<768px) *****/
+
+/***** START: Small devices (Tablets ≥768px) *****/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+	.navbar-toggle{
+		display: inline-block;
+	}
+
+	/*Start: fixed-col-xs-col-md-elements*/
+	.fixed-col-xs-col-md-elements{
+		background-color: #555;
+		opacity: 0.8;
+		height: 40px;
+		width: 1049px;
+		margin-left: -25px;
+		position: fixed;
+		z-index: 190;
+	}
+
+	.main-logo{
+		position: fixed;
+		z-index: 500;
+		margin: 2px 0 0 12px;
+	}
+
+	.main-logo img{
+		position: absolute;
+		z-index: 100;
+		margin-top: 7px;
+	}
+
+	.navbar-default .navbar-toggle{
+		position: fixed;
+		margin-top: 13px;
+		border: none;
+		z-index: 701;
+		margin-left: 700px;
+	}
+
+	/*For 768px!important*/
+	.navbar-collapse.collapse{
+		display: none!important;
+	}
+
+	.navbar-nav>li{
+		float: none;
+	}
+
+	.collapse.in{
+		display: block !important;
+	}
+	/*END: For 768px!important*/
+
+	.navbar-nav{
+		width: 300px;
+		position: fixed;
+		margin-top: 1px;
+		margin-left: 422px;
+		z-index: 170;
+	}
+	/*End: fixed-col-xs-col-md-elements*/
+
+	/*Bootstrap navigation*/
+	.navbar-default .navbar-nav>li>a{
+		font-size: 1.4rem;
+		margin-top: 0px;
+	}
+
+	.navbar-default .navbar-nav>li{
+		margin-top: 0px;
+		display: block;
+		background-color: #555;
+		border-bottom: 1px solid #fff;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.navbar-default .navbar-nav>li:first-child{
+		border-radius: 5px 5px 0 0;
+	}
+
+	.navbar-default .navbar-nav>li:last-child{
+		border-radius: 0 0 5px 5px;
+		border-bottom: none;
+		background-color: #3498db;
+		margin-left: 0px;
+	}
+
+	.navbar-default .navbar-nav>li:last-child a:hover{
+		border-radius: 0px 0px 5px 5px;
+	}
+
+	.navbar-default .navbar-toggle{
+		border: none;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar{
+		background-color: #fff;
+	}
+
+	.navbar-toggle{
+		padding: 0px 10px;
+		margin-top: 45px;
+	}
+
+	.navbar-default .navbar-toggle:hover{
+		background-color: transparent;
+	}
+
+	/*Bootstrap framework navigation*/
+	.main-nav{
+		background-color: transparent;
+		border: none;
+	}
+
+	.navbar-default .navbar-nav>li:first-child{
+		margin-top: 40px;
+	}
+
+	.navbar-default .navbar-collapse, 
+	.navbar-default .navbar-form{
+		border-color: transparent;
+	}
+
+	.navbar-default .navbar-nav>li{
+		margin-top: 0px;
+	}
+	/*End Bootstrap framework navigation*/
+
+	.rocket{
+		background-position: 100px 0px;
+		margin-top: 25px;
+		z-index: 50;
+	}
+
+	.header-descr{
+		text-align: center;
+		margin-top: 40px;
+		z-index: 50;
+	}
+
+	.bottom-head-descr{
+		text-align: center;
+		z-index: 50;
+	}
+
+	.learn-more, .contact-us{
+		width: 150px;
+		margin-top: 110px;
+		z-index: 50;
+	}
+
+	.or-middle{
+		margin-left: -165px;
+		margin-top: 126px;
+		z-index: 50;
+	}
+
+	.web-design p, .logo-design p, .print-design p{
+		padding: 0px;
+	}
+
+	.tooltips{
+		width: 40%;
+	}
+
+	.tooltips:nth-child(odd){
+		margin-right: 5%;
+	}
+
+	.tooltips:nth-child(even) {
+		margin-left: 5%;
+	}
+
+	.slick-prev{
+		left: 45%;
+	}
+
+	.slick-next{
+		left: 52%;
+	}
+
+	.item{
+		margin: 20px 0px;
+	}
+
+	.armstrong-tooltip{
+		width: 485px;
+	}
+
+	.employees h2{
+		font-size: 1.6rem;
+	}
+
+	.employees p{
+		font-size: 1rem;
+	}
+
+	.get-served input{
+		width: 288px;
+	}
+
+	.get-served span,
+	.get-served small{
+		font-size: 1.2rem;
+	}
+
+}
+/***** END: Small devices (Tablets ≥768px) *****/
